@@ -11,9 +11,9 @@ class AppRouter {
         builder: (context) {
           switch (settings.name) {
             case Routes.home:
-              return const MapPage();
+              return const HomeScreen();
             case Routes.map:
-              return HomeScreen();
+              return const MapPage();
             default:
               return NoRouteScreen(roteName: settings.name!);
           }

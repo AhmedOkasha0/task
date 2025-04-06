@@ -38,14 +38,14 @@ flutter:
     - assets/fonts/
     # Remove fonts from here if you're declaring them in fonts section
 
-  # fonts:
-  #   - family: DINNextLTW23
-  #     fonts:
-  #       - asset: assets/fonts/DINNextLTW23-Regular.ttf
-  #         weight: 400
-  #       - asset: assets/fonts/DINNextLTW23-Medium.ttf
-  #         weight: 500
-  #       - asset: assets/fonts/DINNextLTW23-DemiBold.ttf
-  #         weight: 600
-  #       - asset: assets/fonts/DINNextLTW23-Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: DINNextLTArabic
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Black-2.ttf
+          weight: 300
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Regular-2.ttf
+          weight: 400
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Medium-2.ttf
+          weight: 500
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Bold-2.ttf
+          weight: 700

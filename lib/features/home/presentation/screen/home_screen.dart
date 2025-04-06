@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
+import 'package:task/core/routes/routes.dart';
 import 'package:task/core/themes/app_colors.dart';
 import 'package:task/features/home/presentation/widgets/boady.dart';
 import 'package:task/features/home/presentation/widgets/header.dart';
@@ -32,10 +33,10 @@ class HomeScreen extends StatelessWidget {
               Gap(10.h),
               const PaymentDetails(),
               Gap(18.h),
-              const Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  CustomButton(
+                  const CustomButton(
                     width: 157,
                     hight: 41,
                     text: "الغاء الطلب",
@@ -43,6 +44,9 @@ class HomeScreen extends StatelessWidget {
                     borderColor: AppColors.cCE090C,
                   ),
                   CustomButton(
+                    onTap: () {
+                      Navigator.pushNamed(context, Routes.map);
+                    },
                     width: 157,
                     hight: 41,
                     text: "ادفع",

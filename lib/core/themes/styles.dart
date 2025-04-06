@@ -16,7 +16,7 @@ class AppStyles {
     return TextStyle(
       color: color ?? Colors.black,
       fontSize: (size ?? 14).sp,
-      fontFamily: family ?? "cairo",
+      fontFamily: family ?? "DINNextLTArabic",
       fontWeight: weight ?? FontWeight.w500,
       height: height,
       fontStyle: isItalic! ? FontStyle.italic : null,
