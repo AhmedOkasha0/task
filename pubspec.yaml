@@ -1,0 +1,51 @@
+name: task
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^9.1.0
+  bloc: ^9.0.0
+  dio: ^5.8.0+1
+  flutter_svg: ^2.0.10+1
+  freezed_annotation: ^3.0.0
+  freezed: ^3.0.0-0.0.dev
+  shared_preferences: ^2.5.3
+  get_it: ^8.0.3
+  flutter_screenutil: ^5.9.3
+  gap: ^3.0.1
+  smooth_page_indicator: ^1.2.1
+  google_maps_flutter: ^2.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+    # Remove fonts from here if you're declaring them in fonts section
+
+  # fonts:
+  #   - family: DINNextLTW23
+  #     fonts:
+  #       - asset: assets/fonts/DINNextLTW23-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/DINNextLTW23-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/DINNextLTW23-DemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/DINNextLTW23-Bold.ttf
+  #         weight: 700
